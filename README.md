@@ -3,6 +3,7 @@ Short quiz:
  1. Look into new JEP274 API.
  2. Explain what the following code does?
  
+~~~~java
  public static MyClass {
  
      public static boolean less(int i, int cnt) {
@@ -44,6 +45,5 @@ Short quiz:
 
         System.out.println((int)mhLoop.invokeExact(8));
     }
-
-
 }
+~~~~
